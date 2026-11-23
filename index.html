@@ -92,11 +92,11 @@
             <p><strong>習慣チェック - Habit Tracker Calendar</strong></p>
 
             <div class="highlight">
-                ユーザーが入力する習慣データは、お使いのデバイス内にのみ保存され、外部サーバーには送信されません。本アプリの品質改善のためにのみ、匿名の利用状況データとクラッシュ情報を収集しています。
+                ユーザーが入力する習慣データは、お使いのデバイス内に保存され、開発者のサーバーには送信されません（iCloud 自動バックアップをオンにした場合は、ご自身の iCloud にも保存されます）。本アプリの品質改善のためにのみ、匿名の利用状況データとクラッシュ情報を収集しています。
             </div>
 
-            <h2>1. デバイス内にのみ保存されるデータ</h2>
-            <p>以下のユーザー入力データは、お使いのデバイスのローカルストレージ（iOS の標準機能）にのみ保存され、外部サーバーには送信されません。</p>
+            <h2>1. デバイス内に保存されるデータ</h2>
+            <p>以下のユーザー入力データは、お使いのデバイスのローカルストレージ（iOS の標準機能）に保存され、開発者のサーバーには送信されません。iCloud 自動バックアップをオンにした場合のみ、ご自身の iCloud にも保存されます（「4. データのバックアップとシェア」を参照）。</p>
             <ul>
                 <li><strong>習慣名</strong>：ユーザーが登録した習慣の名前</li>
                 <li><strong>チェック記録</strong>：習慣を実行した日付</li>
@@ -111,6 +111,7 @@
             <p>本アプリは、機能の改善と不具合の修正のために、以下の匿名情報を収集します。これらに、習慣名やチェック記録などのユーザー入力データ、および個人を特定できる情報は含まれません。</p>
             <ul>
                 <li><strong>利用状況データ</strong>：画面の表示や操作などのイベント</li>
+                <li><strong>機能の利用状況</strong>：習慣の数、リマインダー・ウィジェット・通知・iCloud 自動バックアップの利用の有無など</li>
                 <li><strong>クラッシュ情報・パフォーマンス情報</strong>：アプリが異常終了した際のログなど</li>
                 <li><strong>アプリインスタンス識別子</strong>：解析サービスが自動的に付与する識別子</li>
             </ul>
@@ -126,7 +127,7 @@
 
             <h2>4. データのバックアップとシェア</h2>
             <ul>
-                <li><strong>バックアップ</strong>：ユーザーの操作により、習慣データをファイルとして書き出し／読み込みできます。書き出したファイルの保存先・共有先はユーザーが選択し、その後の管理はユーザーの責任となります。本アプリが自動でクラウドに送信することはありません。</li>
+                <li><strong>iCloud 自動バックアップ</strong>：メニューでオンにした場合に限り、習慣データ（習慣名・チェック記録・設定など）をご自身の iCloud（Apple のサービス）に自動で保存します。保存先はご自身の iCloud アカウントのみで、開発者がその内容を見ることはできません。機種変更や再インストールの際に、このバックアップから復元できます。既定ではオフで、いつでもオフにできます。</li>
                 <li><strong>シェア</strong>：達成記録を画像として作成し、ユーザーが選んだアプリやサービスへ共有できます。共有するかどうか、共有先はユーザーが選択します。</li>
             </ul>
 
@@ -139,7 +140,7 @@
 
             <h2>6. データの削除</h2>
             <ul>
-                <li>アプリをアンインストールすると、デバイス内に保存されたデータはすべて削除されます。</li>
+                <li>アプリをアンインストールすると、デバイス内に保存されたデータはすべて削除されます。iCloud 自動バックアップのデータは、再インストール時に復元できるよう、ご自身の iCloud に残ります。</li>
                 <li>アプリ内で個別の習慣やデータを削除することもできます。</li>
                 <li>収集済みの匿名の利用状況・クラッシュ情報の削除をご希望の場合は、下記の問い合わせ先までご連絡ください。</li>
             </ul>
@@ -156,7 +157,7 @@
             <h2>9. お問い合わせ</h2>
             <p>本ポリシーに関するご質問は、<a href="mailto:dev.az.contact@gmail.com">dev.az.contact@gmail.com</a> までお問い合わせください。</p>
 
-            <p class="updated">最終更新日: 2026年6月28日</p>
+            <p class="updated">最終更新日: 2026年11月23日</p>
         </section>
 
         <!-- ========== English ========== -->
@@ -165,11 +166,11 @@
             <p><strong>Habit Tracker Calendar</strong></p>
 
             <div class="highlight">
-                The habit data you enter is stored only on your device and is never sent to any external server. We collect anonymous usage data and crash reports solely to improve the quality of the app.
+                The habit data you enter is stored on your device and is never sent to the developer's servers (if you turn on iCloud Auto Backup, it is also saved to your own iCloud). We collect anonymous usage data and crash reports solely to improve the quality of the app.
             </div>
 
-            <h2>1. Data stored only on your device</h2>
-            <p>The following user-entered data is stored only in your device's local storage (a standard iOS feature) and is never sent to any external server:</p>
+            <h2>1. Data stored on your device</h2>
+            <p>The following user-entered data is stored in your device's local storage (a standard iOS feature) and is never sent to the developer's servers. Only if you turn on iCloud Auto Backup is it also saved to your own iCloud (see "4. Backup and sharing"):</p>
             <ul>
                 <li><strong>Habit names</strong>: the names of habits you create</li>
                 <li><strong>Check records</strong>: the dates on which you completed a habit</li>
@@ -184,6 +185,7 @@
             <p>The app collects the following anonymous information to improve features and fix bugs. It does <strong>not</strong> include user-entered data (such as habit names or check records) or any personally identifiable information:</p>
             <ul>
                 <li><strong>Usage data</strong>: events such as screen views and interactions</li>
+                <li><strong>Feature usage</strong>: the number of habits, and whether reminders, widgets, notifications, and iCloud Auto Backup are in use, etc.</li>
                 <li><strong>Crash and performance data</strong>: logs generated when the app crashes, etc.</li>
                 <li><strong>App instance identifier</strong>: an identifier automatically assigned by the analytics service</li>
             </ul>
@@ -199,7 +201,7 @@
 
             <h2>4. Backup and sharing</h2>
             <ul>
-                <li><strong>Backup</strong>: At your request, you can export and import your habit data as a file. You choose where the exported file is saved or shared, and you are responsible for managing it afterward. The app does not automatically upload it to any cloud.</li>
+                <li><strong>iCloud Auto Backup</strong>: Only if you turn it on in the menu, the app automatically saves your habit data (habit names, check records, settings, etc.) to your own iCloud (a service provided by Apple). The data is stored only in your own iCloud account, and the developer cannot view it. You can restore from this backup when you switch devices or reinstall the app. It is off by default and can be turned off at any time.</li>
                 <li><strong>Sharing</strong>: You can create an image of your achievements and share it to an app or service of your choice. Whether and where to share is up to you.</li>
             </ul>
 
@@ -212,7 +214,7 @@
 
             <h2>6. Data deletion</h2>
             <ul>
-                <li>Uninstalling the app deletes all data stored on your device.</li>
+                <li>Uninstalling the app deletes all data stored on your device. Data saved by iCloud Auto Backup remains in your own iCloud so that you can restore it if you reinstall the app.</li>
                 <li>You can also delete individual habits or data within the app.</li>
                 <li>If you would like the anonymous usage and crash data already collected to be deleted, please contact us at the address below.</li>
             </ul>
@@ -229,7 +231,7 @@
             <h2>9. Contact</h2>
             <p>If you have any questions about this policy, please contact us at <a href="mailto:dev.az.contact@gmail.com">dev.az.contact@gmail.com</a>.</p>
 
-            <p class="updated">Last updated: June 28, 2026</p>
+            <p class="updated">Last updated: November 23, 2026</p>
         </section>
     </div>
 
